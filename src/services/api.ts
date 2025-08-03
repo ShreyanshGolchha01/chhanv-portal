@@ -1,5 +1,5 @@
 // API Configuration
-const PHP_API_BASE_URL = 'http://165.22.208.62:8080/';
+const PHP_API_BASE_URL = 'http://localhost/chhanv/';
 
 // Dashboard API
 export const dashboardAPI = {
@@ -292,3 +292,4 @@ export const handleAPIError = async (error: any) => {
   }
   return error.message || 'Something went wrong';
 };
+
